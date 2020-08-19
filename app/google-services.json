@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "101361884562",
+    "firebase_url": "https://watchxxi.firebaseio.com",
+    "project_id": "watchxxi",
+    "storage_bucket": "watchxxi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101361884562:android:4a532061084dce7ea7354b",
+        "android_client_info": {
+          "package_name": "com.watchxxi.freemovies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101361884562-3gkslkgadps1ffa1jcfog65ka1vgjl2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD69krE9QCQaKIv3D8rEffeGOby7AI18Vo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101361884562-3gkslkgadps1ffa1jcfog65ka1vgjl2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
