@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.watchxxi.freemovies"
+    package="com.livifighter.movieboxcinema"
     tools:ignore="MissingLeanbackLauncher">
 
 
@@ -23,7 +23,7 @@
 
 
     <application
-        android:name="com.watchxxi.freemovies.utils.MyAppClass"
+        android:name="com.livifighter.movieboxcinema.utils.MyAppClass"
         android:allowBackup="true"
         tools:replace="android:icon"
         android:icon="@mipmap/ic_launcher"
@@ -34,24 +34,24 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name="com.watchxxi.freemovies.SearchActivity" />
-        <activity android:name="com.watchxxi.freemovies.FirebaseSignUpActivity" />
-        <activity android:name="com.watchxxi.freemovies.EventPaymentStripeActivity" />
+        <activity android:name="com.livifighter.movieboxcinema.SearchActivity" />
+        <activity android:name="com.livifighter.movieboxcinema.FirebaseSignUpActivity" />
+        <activity android:name="com.livifighter.movieboxcinema.EventPaymentStripeActivity" />
 
         <activity
-            android:name="com.watchxxi.freemovies.TestActivity"
+            android:name="com.livifighter.movieboxcinema.TestActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.SearchFilterActivity"
+            android:name="com.livifighter.movieboxcinema.SearchFilterActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.PapalPaymentActivity"
+            android:name="com.livifighter.movieboxcinema.PapalPaymentActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.WebViewActivity"
+            android:name="com.livifighter.movieboxcinema.WebViewActivity"
             android:screenOrientation="fullSensor" />
 
         <meta-data
@@ -70,49 +70,49 @@
             android:value="ARrHo4SIPy7zHFKkFMtA8ol_k7XAnaMTFnAU9P8WsTwK2Rr-P9A-vOwmwiTEgXdZnbyWXBzdQdo6kqRkwSuWVH"/>
 
         <activity
-            android:name="com.watchxxi.freemovies.TermsActivity"
+            android:name="com.livifighter.movieboxcinema.TermsActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.ReplyActivity"
+            android:name="com.livifighter.movieboxcinema.ReplyActivity"
             android:label="@string/title_activity_reply"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.watchxxi.freemovies.ProfileActivity"
+            android:name="com.livifighter.movieboxcinema.ProfileActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.PassResetActivity"
+            android:name="com.livifighter.movieboxcinema.PassResetActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.SearchResultActivity"
+            android:name="com.livifighter.movieboxcinema.SearchResultActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.SignUpActivity"
+            android:name="com.livifighter.movieboxcinema.SignUpActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.LoginActivity"
+            android:name="com.livifighter.movieboxcinema.LoginActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.DetailsActivity"
+            android:name="com.livifighter.movieboxcinema.DetailsActivity"
             android:configChanges="screenLayout|screenSize|orientation"
             android:label="@string/title_activity_details"
             android:theme="@style/AppTheme.NoActionBar" /> <!-- android:configChanges="screenLayout|screenSize|orientation" -->
         <activity
-            android:name="com.watchxxi.freemovies.MainActivity"
+            android:name="com.livifighter.movieboxcinema.MainActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.watchxxi.freemovies.SettingsActivity"
+            android:name="com.livifighter.movieboxcinema.SettingsActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.SplashScreenActivity"
+            android:name="com.livifighter.movieboxcinema.SplashScreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="fullSensor">
             <intent-filter>
@@ -124,38 +124,38 @@
 
 
         <activity
-            android:name="com.watchxxi.freemovies.UpdateActivity"
+            android:name="com.livifighter.movieboxcinema.UpdateActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="fullSensor">
 
         </activity>
         <activity
-            android:name="com.watchxxi.freemovies.ItemMovieActivity"
+            android:name="com.livifighter.movieboxcinema.ItemMovieActivity"
             android:label="@string/title_activity_item_show"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.watchxxi.freemovies.ItemTVActivity"
+            android:name="com.livifighter.movieboxcinema.ItemTVActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.ItemSeriesActivity"
+            android:name="com.livifighter.movieboxcinema.ItemSeriesActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.SubscriptionActivity"
+            android:name="com.livifighter.movieboxcinema.SubscriptionActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.StripePaymentActivity"
+            android:name="com.livifighter.movieboxcinema.StripePaymentActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.PurchasePlanActivity"
+            android:name="com.livifighter.movieboxcinema.PurchasePlanActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.watchxxi.freemovies.DownloadActivity"
+            android:name="com.livifighter.movieboxcinema.DownloadActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
 
