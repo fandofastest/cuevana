@@ -29,11 +29,22 @@ public class AdsConfig {
     @SerializedName("fan_interstitial_ads_placement_id")
     @Expose
     private String fanInterstitialAdsPlacementId;
+    @SerializedName("fan_interstitial_ads_placement_id1")
+    @Expose
+    private String fanInterstitialAdsPlacementId1;
     @SerializedName("startapp_app_id")
     @Expose
     private String startappAppId;
 
     public AdsConfig() {
+    }
+
+    public String getFanInterstitialAdsPlacementId1() {
+        return fanInterstitialAdsPlacementId1;
+    }
+
+    public void setFanInterstitialAdsPlacementId1(String fanInterstitialAdsPlacementId1) {
+        this.fanInterstitialAdsPlacementId1 = fanInterstitialAdsPlacementId1;
     }
 
     public String getAdsEnable() {

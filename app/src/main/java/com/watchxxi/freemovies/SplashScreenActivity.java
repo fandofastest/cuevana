@@ -511,7 +511,8 @@ public class SplashScreenActivity extends AppCompatActivity {
 
     public void showFANInterstitialAds(Context context){
         DatabaseHelper db = new DatabaseHelper(context);
-        String placementId = db.getConfigurationData().getAdsConfig().getFanInterstitialAdsPlacementId();
+        String placementId = db.getConfigurationData().getAdsConfig().getFanInterstitialAdsPlacementId1();
+        System.out.println("errr "+placementId);
 
         final com.facebook.ads.InterstitialAd interstitialAd = new com.facebook.ads.InterstitialAd(context, placementId);
         interstitialAd.setAdListener(new InterstitialAdListener() {
@@ -555,7 +556,7 @@ public class SplashScreenActivity extends AppCompatActivity {
 
             @Override
             public void onError(Ad ad, AdError adError) {
-
+                System.out.println("aderror "+adError.getErrorMessage());
 
                 if (PreferenceUtils.isLoggedIn(SplashScreenActivity.this)) {
                                 Intent intent = new Intent(SplashScreenActivity.this, MainActivity.class);
