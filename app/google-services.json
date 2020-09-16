@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "778148821340",
-    "firebase_url": "https://moviebox-212.firebaseio.com",
-    "project_id": "moviebox-212",
-    "storage_bucket": "moviebox-212.appspot.com"
+    "project_number": "471945057151",
+    "firebase_url": "https://cuevana-e3441.firebaseio.com",
+    "project_id": "cuevana-e3441",
+    "storage_bucket": "cuevana-e3441.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:778148821340:android:2e8f63a7a1fe998649e999",
+        "mobilesdk_app_id": "1:471945057151:android:777ca5b75b2e05c42b404a",
         "android_client_info": {
-          "package_name": "com.livifighter.movieboxcinema"
+          "package_name": "com.movieeeapps.cuevanahd"
         }
       },
       "oauth_client": [
         {
-          "client_id": "778148821340-lpf8khs2qunturrr97fu3k58b8eg78q5.apps.googleusercontent.com",
+          "client_id": "471945057151-nve557tvtkpo1v5vucpfb91ptalv86mc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA3kMJG5flZWCDEJKh6W19D-b0tHhxcO9A"
+          "current_key": "AIzaSyD6LK7SvhHyinmYppWKwV3i6nzxC5HlgmE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "778148821340-lpf8khs2qunturrr97fu3k58b8eg78q5.apps.googleusercontent.com",
+              "client_id": "471945057151-nve557tvtkpo1v5vucpfb91ptalv86mc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
