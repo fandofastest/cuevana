@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:background="@color/colorPrimary"
     android:layout_height="match_parent"
-    tools:context="com.movieeeapps.cuevanahd.UpdateActivity">
+    tools:context="com.hdelitestream.newcuevanahd.UpdateActivity">
 
     <ImageView
         android:id="@+id/foto"

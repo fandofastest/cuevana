@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "471945057151",
-    "firebase_url": "https://cuevana-e3441.firebaseio.com",
-    "project_id": "cuevana-e3441",
-    "storage_bucket": "cuevana-e3441.appspot.com"
+    "project_number": "477211476584",
+    "firebase_url": "https://newcuevana.firebaseio.com",
+    "project_id": "newcuevana",
+    "storage_bucket": "newcuevana.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:471945057151:android:777ca5b75b2e05c42b404a",
+        "mobilesdk_app_id": "1:477211476584:android:bb4924c860c0a6f2e331dd",
         "android_client_info": {
-          "package_name": "com.movieeeapps.cuevanahd"
+          "package_name": "com.hdelitestream.newcuevanahd"
         }
       },
       "oauth_client": [
         {
-          "client_id": "471945057151-nve557tvtkpo1v5vucpfb91ptalv86mc.apps.googleusercontent.com",
+          "client_id": "477211476584-29292f65b5l9qgec6k8liqsobl57mop9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD6LK7SvhHyinmYppWKwV3i6nzxC5HlgmE"
+          "current_key": "AIzaSyASQWLhCoEorZKlz5Q1ujPVFxTevYNqGzo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "471945057151-nve557tvtkpo1v5vucpfb91ptalv86mc.apps.googleusercontent.com",
+              "client_id": "477211476584-29292f65b5l9qgec6k8liqsobl57mop9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

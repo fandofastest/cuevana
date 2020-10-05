@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.movieeeapps.cuevanahd"
+    package="com.hdelitestream.newcuevanahd"
     tools:ignore="MissingLeanbackLauncher">
 
 
@@ -23,7 +23,7 @@
 
 
     <application
-        android:name="com.movieeeapps.cuevanahd.utils.MyAppClass"
+        android:name="com.hdelitestream.newcuevanahd.utils.MyAppClass"
         android:allowBackup="true"
         tools:replace="android:icon"
         android:icon="@mipmap/ic_launcher"
@@ -34,24 +34,23 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name="com.movieeeapps.cuevanahd.SearchActivity" />
-        <activity android:name="com.movieeeapps.cuevanahd.FirebaseSignUpActivity" />
-        <activity android:name="com.movieeeapps.cuevanahd.EventPaymentStripeActivity" />
+        <activity android:name="com.hdelitestream.newcuevanahd.SearchActivity" />
+        <activity android:name="com.hdelitestream.newcuevanahd.FirebaseSignUpActivity" />
 
         <activity
-            android:name="com.movieeeapps.cuevanahd.TestActivity"
+            android:name="com.hdelitestream.newcuevanahd.TestActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.SearchFilterActivity"
+            android:name="com.hdelitestream.newcuevanahd.SearchFilterActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.PapalPaymentActivity"
+            android:name="com.hdelitestream.newcuevanahd.PapalPaymentActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.WebViewActivity"
+            android:name="com.hdelitestream.newcuevanahd.WebViewActivity"
             android:screenOrientation="fullSensor" />
 
         <meta-data
@@ -70,49 +69,49 @@
             android:value="ARrHo4SIPy7zHFKkFMtA8ol_k7XAnaMTFnAU9P8WsTwK2Rr-P9A-vOwmwiTEgXdZnbyWXBzdQdo6kqRkwSuWVH"/>
 
         <activity
-            android:name="com.movieeeapps.cuevanahd.TermsActivity"
+            android:name="com.hdelitestream.newcuevanahd.TermsActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.ReplyActivity"
+            android:name="com.hdelitestream.newcuevanahd.ReplyActivity"
             android:label="@string/title_activity_reply"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.ProfileActivity"
+            android:name="com.hdelitestream.newcuevanahd.ProfileActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.PassResetActivity"
+            android:name="com.hdelitestream.newcuevanahd.PassResetActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.SearchResultActivity"
+            android:name="com.hdelitestream.newcuevanahd.SearchResultActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.SignUpActivity"
+            android:name="com.hdelitestream.newcuevanahd.SignUpActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.LoginActivity"
+            android:name="com.hdelitestream.newcuevanahd.LoginActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.DetailsActivity"
+            android:name="com.hdelitestream.newcuevanahd.DetailsActivity"
             android:configChanges="screenLayout|screenSize|orientation"
             android:label="@string/title_activity_details"
             android:theme="@style/AppTheme.NoActionBar" /> <!-- android:configChanges="screenLayout|screenSize|orientation" -->
         <activity
-            android:name="com.movieeeapps.cuevanahd.MainActivity"
+            android:name="com.hdelitestream.newcuevanahd.MainActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.SettingsActivity"
+            android:name="com.hdelitestream.newcuevanahd.SettingsActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.SplashScreenActivity"
+            android:name="com.hdelitestream.newcuevanahd.SplashScreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="fullSensor">
             <intent-filter>
@@ -124,38 +123,30 @@
 
 
         <activity
-            android:name="com.movieeeapps.cuevanahd.UpdateActivity"
+            android:name="com.hdelitestream.newcuevanahd.UpdateActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="fullSensor">
 
         </activity>
         <activity
-            android:name="com.movieeeapps.cuevanahd.ItemMovieActivity"
+            android:name="com.hdelitestream.newcuevanahd.ItemMovieActivity"
             android:label="@string/title_activity_item_show"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.ItemTVActivity"
+            android:name="com.hdelitestream.newcuevanahd.ItemTVActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.ItemSeriesActivity"
+            android:name="com.hdelitestream.newcuevanahd.ItemSeriesActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.SubscriptionActivity"
+            android:name="com.hdelitestream.newcuevanahd.SubscriptionActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.movieeeapps.cuevanahd.StripePaymentActivity"
-            android:screenOrientation="fullSensor"
-            android:theme="@style/AppTheme.Nobar" />
-        <activity
-            android:name="com.movieeeapps.cuevanahd.PurchasePlanActivity"
-            android:screenOrientation="fullSensor"
-            android:theme="@style/AppTheme.Nobar" />
-        <activity
-            android:name="com.movieeeapps.cuevanahd.DownloadActivity"
+            android:name="com.hdelitestream.newcuevanahd.DownloadActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
 
