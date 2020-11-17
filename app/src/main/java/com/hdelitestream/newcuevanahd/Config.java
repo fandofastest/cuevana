@@ -3,13 +3,13 @@ package com.hdelitestream.newcuevanahd;
 public class Config {
 
     // copy your api url from php admin dashboard & paste below
-    public static final String API_SERVER_URL = "https://hdnontoncinema.xyz/cuevana/new_api/";
+    public static final String API_SERVER_URL = "https://tambunmovie.xyz/new_api/";
 
     //copy your api key from php admin dashboard & paste below
     public static final String API_KEY = "c83u6zus8v4akvl1zkr64w5u";
 
     //copy your terms url from php admin dashboard & paste below
-    public static final String TERMS_URL = "https://hdnontoncinema.xyz/cuevana/terms/";
+    public static final String TERMS_URL = "https://tambunmovie.xyz/terms/";
 
     //youtube video auto play
     public static boolean YOUTUBE_VIDEO_AUTO_PLAY = true;

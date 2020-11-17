@@ -693,13 +693,8 @@ public class DetailsActivity extends AppCompatActivity implements CastPlayer.Ses
         downloadBt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!listInternalDownload.isEmpty() || !listExternalDownload.isEmpty()) {
-                    if (PreferenceUtils.isLoggedIn(DetailsActivity.this) && PreferenceUtils.isActivePlan(DetailsActivity.this)) {
-                        openDownloadServerDialog();
-                    } else {
-                        Toast.makeText(DetailsActivity.this, R.string.download_not_permitted, Toast.LENGTH_SHORT).show();
-                        Log.e("Download", "not permitted");
-                    }
+                if (!listServer.isEmpty() || !listServer.isEmpty()) {
+                    openDownloadServerDialog();
                 } else {
 
                     Toast.makeText(DetailsActivity.this, R.string.no_download_server_found, Toast.LENGTH_SHORT).show();
@@ -856,20 +851,20 @@ public class DetailsActivity extends AppCompatActivity implements CastPlayer.Ses
         View view = LayoutInflater.from(this).inflate(R.layout.layout_download_server_dialog, null);
         internalDownloadLayout = view.findViewById(R.id.internal_download_layout);
         externalDownloadLayout = view.findViewById(R.id.external_download_layout);
-        if (listExternalDownload.isEmpty()) {
+        if (listServer.isEmpty()) {
             externalDownloadLayout.setVisibility(GONE);
         }
-        if (listInternalDownload.isEmpty()) {
+        if (listServer.isEmpty()) {
             internalDownloadLayout.setVisibility(GONE);
         }
         internalServerRv = view.findViewById(R.id.internal_download_rv);
         externalServerRv = view.findViewById(R.id.external_download_rv);
-        internalDownloadAdapter = new DownloadAdapter(this, listInternalDownload, true);
+        internalDownloadAdapter = new DownloadAdapter(this, listServer, true);
         internalServerRv.setLayoutManager(new LinearLayoutManager(this));
         internalServerRv.setHasFixedSize(true);
         internalServerRv.setAdapter(internalDownloadAdapter);
 
-        externalDownloadAdapter = new DownloadAdapter(this, listExternalDownload, true);
+        externalDownloadAdapter = new DownloadAdapter(this, listServer, true);
         externalServerRv.setLayoutManager(new LinearLayoutManager(this));
         externalServerRv.setHasFixedSize(true);
         externalServerRv.setAdapter(externalDownloadAdapter);
